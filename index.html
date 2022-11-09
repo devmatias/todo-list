@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha Lista de Tarefas</title>
+</head>
+<header>
+    <h1>Minha Lista de Tarefas</h1>
+
+</header>
+
+<body>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    <section class="my-buttons">
+        <div>
+            <button type="button" class="btn btn-secondary size-btn" id="mover-cima">Mover tarefa para cima</button>
+            <button type="button" class="btn btn-secondary size-btn" id="mover-baixo">Mover tarefa para baixo</button>
+            <button type="button" class="btn btn-secondary size-btn" id="salvar-tarefas">Salvar tarefas</button>
+        </div>
+        <div>
+            <button type="reset" class="btn btn-danger size-btn" id="apaga-tudo">Apagar tarefas</button>
+            <button type="reset" class="btn btn-danger size-btn" id="remover-finalizados">Remover tarefas
+                finalizadas</button>
+            <button type="button" class="btn btn-danger size-btn" id="remover-selecionado">Remove tarefa
+                selecionada</button>
+        </div>
+    </section>
+    <section>
+        <div class="input-group mb-3">
+            <button type="button" id="criar-tarefa" class="btn btn-primary input-group-text">Adicionar tarefa</button>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" id="texto-tarefa" placeholder="Nova tarefa">
+        </div>
+        <div id="bloco-lista" class="list-group">
+            <h3>Minhas Tarefas</h3>
+            <ol id="lista-tarefas" class="list-group list-group-numbered">
+
+            </ol>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

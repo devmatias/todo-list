@@ -1,0 +1,48 @@
+header {
+  background-color: blueviolet;
+  color: white;
+}
+
+body {
+  text-align: center;
+  background-color: aqua;
+}
+
+.my-buttons {
+  margin: 1%;
+}
+
+.size-btn {
+  width: 30%;
+  margin: 0 5px 5px;
+}
+
+#texto-tarefa {
+  width: 30%;
+  flex: 0 0 auto;
+}
+
+#criar-tarefa {
+  margin: 0 0 0 30%;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#bloco-lista {
+  padding: 5px 0;
+  text-align: left;
+  margin: 0 30%;
+  background-color: orange;
+  width: 43%;
+  border: 1px solid gray;
+}
+
+#bloco-lista h3 {
+  text-align: center;
+}
